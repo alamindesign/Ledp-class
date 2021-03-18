@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Redious</title>
+	<style>
+		.img{
+			border: 20px solid transparent;
+			padding: 15px;
+			border-image: url(https://satech360.com/wp-content/uploads/2020/04/css_border_image.jpg) 30 round;
+		}
+		.di1{
+			height: 100px;
+			width: 200px;
+			border-radius: 20px 20px 0 0;
+			background-color: green;
+		}
+		.di2{
+			height: 100px;
+			width: 200px;
+			border-radius: 0 0 0 0;
+			background-color: green;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.circle{
+			height: 100px;
+			width: 100px;
+			background-color: red;
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.di3{
+			height: 100px;
+			width: 200px;
+			border-radius: 0 0 20px 20px;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="img">
+		<div class="di1"></div>
+		<div class="di2">
+			<div class="circle"></div>
+		</div>
+		<div class="di3"></div>
+	</div>
+</body>
+</html>
