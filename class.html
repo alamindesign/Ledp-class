@@ -6,8 +6,41 @@
 	<title>Adding image</title>
 </head>
 <body>
-	<img src="assets/img/web.png" width="300px" height="200px">
-	<h1>Visit to my<a href="https://youtu.be/sy_l2t5eEok" target="_blank">Youtube</a> Channel </h1>
+	<table border="2">
+		<tr>
+			<th colspan="2">Name and roll</th>
+			<th colspan="2">Section & result</th>
+		</tr>
+		<tr>
+			<td rowspan="2">Rashed & nibir </td>
+			<td>11225</td>
+			<td rowspan="2">BS1</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>22115</td>
+			<td>D</td>
+		</tr>
+		<tr>
+			<th colspan="4">Students</th>
+		</tr>
+	</table>
+	<br>
+	<form>
+		Name: <input type="text"><br>
+		Email: <input type="Email"> <br>
+		password: <input type="password"><br>
 
+		Subjects: <input type="checkbox"> Bangla
+					<input type="checkbox">Math
+					<input type="checkbox">English <br>
+
+		Gender: <input type="radio" name="gender">Male
+				<input type="radio" name="gender">Female
+				<input type="radio" name="gender">Others <br>
+				
+		<input type="submit" value="Login">
+		<input type="reset" value="Reset">
+	</form>
 </body>
 </html>

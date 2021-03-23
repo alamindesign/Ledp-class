@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navigetion bar</title>
+	<link rel="stylesheet" href="assets/icon/css/font-awesome.css">
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		nav{
+			background-color: #c7c7c7;
+			height: 100px;
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		ul{
+			margin: 0;
+		}
+		li{
+			list-style-type: none;
+			display: inline-block;
+			font-size: 2em;
+			transition: all .3s;
+		}
+		li:hover{
+			transform: scale(1.1);
+		}
+		a{
+			text-decoration: none;
+			color: black;
+			padding: 10px 20px 10px;
+			text-transform: uppercase;
+		}
+		li:nth-child(even) a{
+			opacity: .8;
+		}
+		a:hover{
+			color: blue;
+		}
+		a:focus{
+			background-color: black;
+			color: gray;
+			border-radius: 25%;
+		}
+		h2{
+			padding: 20px;
+			font-size: 2em;
+			margin: 0;
+		}
+		div{
+			height: 500px;
+			width: 100%;
+			background-color: cyan;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		div ul{
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+
+		}
+		div ul li{
+			height: 150px;
+			width: 150px;
+			line-height: 150px;
+			background-color: white;
+			border-radius: 50%;
+			font-size: 50px;
+			margin-left: 20px;
+			text-align: center;
+			box-shadow: 3px 5px 10px black;
+		}
+		div ul li:hover{
+			box-shadow: none;
+			transform: none;
+		}
+		div ul li:first-child{
+			background-color: #3b5998;
+			color: white;
+			margin-left: 0;
+		}
+		div ul li:nth-child(2){
+			background-color: #4ac959;
+			color: white;
+		}
+		div ul li:nth-child(3){
+			background-color:  #00acee;
+			color: white;
+		}
+		div ul li:last-child{
+			background: linear-gradient(45deg, #405de6,#5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<h2>Logo</h2>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contract</a></li>
+			<li><a href="#">Help</a></li>
+			<li><a href="#">More</a></li>	
+		</ul>
+	</nav>
+	<div>
+		<ul>
+			<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+			<li><i class="fa fa-whatsapp" aria-hidden="true"></i></li>
+			<li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+			<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+		</ul>
+	</div>
+	linear-gradient(45deg, #405de6,#5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+</body>
+</html>
